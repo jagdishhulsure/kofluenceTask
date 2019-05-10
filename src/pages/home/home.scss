@@ -1,3 +1,40 @@
 page-home {
-
+    .chip-md {
+        border-radius: 16px;
+        height: 60px;
+        font-size: 15px;
+        line-height: 21px;
+        color: rgba(0, 0, 0, 0.87);
+        background: #FFBF00;
+        margin-left: 5px;
+        padding: 6px;
+        /* text-align: center; */
+        width: auto;
+    }
+    .searchbar-md .searchbar-input {
+        padding: 6px 55px;
+        border-radius: 24px;
+        background-color: #ACACAC;
+    }
+    .item-md ion-thumbnail ion-img, .item-md ion-thumbnail img {
+        width: 157px;
+        height: 121px;
+    }
+    .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated {
+        border-color: #FFBF00;
+        opacity: 1;
+    }
+    .col{
+        text-align: center;
+    }
+    .myOverlay{
+        width: 50%;
+        height: 60px;
+        position: absolute;
+        z-index: 99;
+        bottom: 0px;
+        opacity: 0.5;
+        color: #fff;
+    
+    }
 }
